@@ -93,7 +93,7 @@ Note: Every 30 minutes crate loot will be respawned!
 
 | Type |  Picture | Info |
 | :--- | :----: | --: |
-| Weapon | <img src="images/crates/weapon.png" style="width: 100px;"/> | 10 random wapon and ammo items |
+| Weapon | <img src="images/crates/weapon.png" style="width: 100px;"/> | 10 random weapon and ammo items |
 | Medic | <img src="images/crates/medic.png" style="width: 100px;"/> | 10 random health items |
 | Farm | <img src="images/crates/farm.png" style="width: 100px;"/> | 10 random farm items |
 | Drink | <img src="images/crates/drink.png" style="width: 100px;"/> | 10 random drink items |

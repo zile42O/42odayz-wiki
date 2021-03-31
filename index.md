@@ -84,7 +84,8 @@ Respawn time: `2 - 10 minutes`.
 Damage per hit: `5.0 - 90.0 damage`. 
 Running style: `Fast or Slow`.
 
-Note: Zombies can hear your shooting, if you are close to them and they will move in the direction where you last shot!
+Note: Zombies can hear your shooting, if you are close to them and they will move in the direction where you last shot, however this does not apply for `Silencer`.
+
 
 -----
 Crates

@@ -66,12 +66,25 @@ Note: To perform an action with an item, you must open the `Inventory` gui with 
 | Shovel | <img src="images/items/51.png" style="width: 60px;"/> | Farm | Necessary for growing plants |
 | Plant Pot | <img src="images/items/52.png" style="width: 60px;"/> | Farm | Necessary for growing plants |
 | Fertilizer | <img src="images/items/53.png" style="width: 60px;"/> | Farm | Necessary for growing plants |
-| Ghillie | <img src="images/items/54.png" style="width: 60px;"/> | Speical | Ghillie clothes |
-| Util Joint | <img src="images/items/55.png" style="width: 60px;"/> | Speical | Smoking weed | 
-| Ganja | <img src="images/items/56.png" style="width: 60px;"/> | Speical | They were obtained after growing plant 'Weed', uses for smoking 'Util Joint' | 
+| Ghillie | <img src="images/items/54.png" style="width: 60px;"/> | Special | Ghillie clothes |
+| Util Joint | <img src="images/items/55.png" style="width: 60px;"/> | Special | Smoking weed | 
+| Ganja | <img src="images/items/56.png" style="width: 60px;"/> | Special | They were obtained after growing plant 'Weed', uses for smoking 'Util Joint' | 
 | RedBull | <img src="images/items/57.png" style="width: 60px;"/> | Drink Special | Resync stamina (client) |
 | Tent | <img src="images/items/58.png" style="width: 60px;"/> | Tent Storage | Planting private tent with only your access |
 | Fishing Rod | <img src="images/items/59.png" style="width: 60px;"/> | Tools | It is used for fishing, command: `/fishing` |
+
+-----
+Tent
+-------
+Tip: To loot the tent you need first to press key 'C' (to player crouch) and then press key 'LALT'.
+
+Warning: Placing tent in bad surface can result moving or deleting tent by Administrators
+##### Tent is is your private storage for your items, only you can access to the tent.
+<img src="images/tent.png" style="width: 250px; height: 200px;"/>
+
+Page slots: `5 pages`.
+Slots per page: `8 slots`.
+Total capacity: `40 items`.
 
 Zombies
 -------
@@ -168,4 +181,143 @@ Tip: You can add ammo from other weapon if that weapons have both same **Ammunit
 
 Note: Actions in `Inventory` gui, for weapons are only `Drop` and `Equip` / `Unequip`!
 
----
+-----
+Coins
+-----
+The coins is important and main currency on server (some kind of money), with buying and trading items, for some kind of features and actions you will need coins to gain access for them.
+
+There is two way to you get a coins:
+
+1. By selling the items on market location with command `/sell`
+    - Marked with icon on minimap: <img src="https://assets.open.mp/assets/images/mapIcons/icon52.gif"/>
+
+2. By donating
+    - If you want to donate, you can donate via `Crypto Currency`.
+    - Minimal amount for donate is `100 coins` (*10 EUR*)
+
+----
+* With coins you can gain access to next features:
+    - Change name
+    - Buy a house
+    - Buy items
+    - Buy donator level
+    - Buy a donator backpack
+    - Access to command `/mapradar`
+        - Note: This is only available during session
+    - Create own family
+    - Call an airdrop
+
+Tip: You can trade coins between other players with command `/sendcoins`
+
+-----
+Donators
+-----
+Donators are our privileged players with additional functions than standard players, but in the normal range. I don't want to separate the players, so that everyone has the opportunity to collect items and sell them to buy the donator level.
+
+| Level | Tag | Coins Amount |
+| :--- | --- | --: |
+| Donator Level 1 | <p style="color: #C0C0C0;">Silver Donator</p> | 45.0 |
+| Donator Level 2 | <p style="color: #CD7F32;">Bronze Donator</p> | 65.0 |
+| Donator Level 3 | <p style="color: #FFD700;">Gold Donator</p> | 90.0 |
+
+Note: Donator level expires in 30 days after buy, even if you don't play
+
+* Features:
+    - Each respawn (after death) donator get in inventory items:
+        - Donator Level 1: `Deagle (35)` | `Country rifle (15)`
+        - Donator Level 2: `Deagle (70)` | `Sniper (30)` | `Armour` | `Medkit`
+        - Donator Level 3: `Deagle (100)` | `Sniper (50)` | `Armour` | `Medkit` | `Helmet` | `Redbull`
+    - Donator Tag
+    - Change backpack color
+    - Buy Donator backpack
+    - Change text color in global chat
+-----
+Achievements
+-----
+Note: By completing each achievement you got some amount of exp for level up.
+
+| Name |
+| :-- |
+|First death| 
+|First enemy kill| 
+|First zombie kill| 
+|First item picked| 
+|First headshot| 
+|First plant| 
+|Harverst plant| 
+|Smoke joint| 
+|Heal yourself| 
+|Open your first airdrop| 
+|Become donator| 
+|First airdrop call| 
+|Buy safe house| 
+|Kill 10 zombies (session)|
+|Kill 25 zombies (session)|
+|Kill 50 zombies (session)|
+|Kill 10 enemies (session)|
+|Kill 25 enemies (session)|
+|Kill 50 enemies (session)|
+|Reach 1 hour of continously playing| 
+|Reach 3 hour of continously playing| 
+|Reach 6 hour of continously playing| 
+|Reach 12 hour of continously playing|
+|Reach 1 day of continously playing| 
+|Reach level 10| 
+|Reach level 50| 
+|Reach level 100| 
+|Open your first crate|
+
+-----
+Dead Body
+-----
+When players die death body will be spawned at last location, which you can loot before deletion.
+
+
+<img src="images/deadbody.png" style="width: 200px; height: 150px"/>
+
+Tip: To loot the dead body you need first to press key 'C' (to player crouch) and then press key 'LALT'.
+
+Warning: If you die into a water, all your items and death body will be lost forever
+
+Warning: If you being damaged by player or zombie and you quit the server before death evade protection, you will be marked as *dead*. This is protection for death evade and you must wait few seconds before leaving the server, each time you get damaged the timer increases for protection.
+
+-----
+Families
+-----
+Each player can make his own family if he has enough coins, each family has its own ranks, its own color, and its own name.
+It is also possible to additionally order a `Gang House` that would be in the possession of that family (it is necessary to have a minimum of 5 members) and request the administrator to create for you.
+
+-----
+Airdrop
+-----
+You can easily call airdrop to your current postion with command `/callairdrop` if you have `15.0` coins.
+And you can loot a airdrop when arrive and drop to the ground.
+
+<img src="images/airdrop_parachute.png" style="width: 150px; height: 150px"/>
+<img src="images/airdrop_dropped.png" style="width: 150px; height: 150px"/>
+
+
+Tip: To loot the airdrop you need first to press key 'C' (to player crouch) and then press key 'LALT'.
+
+Note: Only one airdrop can be active at the moment
+
+-----
+Plants
+-----
+
+#### Banana
+<img src="images/plants/banana.png" style="width: 150px; height: 150px"/> 
+
+#### Tomato
+<img src="images/plants/tomato.png" style="width: 150px; height: 150px"/> 
+
+#### Orange
+<img src="images/plants/orange.png" style="width: 150px; height: 150px"/>
+
+#### Apple
+<img src="images/plants/apple.png" style="width: 150px; height: 150px"/> 
+
+#### Weed
+<img src="images/plants/weed.png" style="width: 150px; height: 150px"/> 
+
+Tip: To harvest the plant press key 'N' the items will be added to your inventory after falling down from plant.
